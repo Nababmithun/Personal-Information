@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@android:color/white"
+    android:minHeight="?attr/actionBarSize"
+    app:layout_scrollFlags="scroll|enterAlways|snap">
+
+    <!--  //..............Code start...............................//-->
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:src="@drawable/logos" />
+
+        <TextView
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/first_color"
+            android:text="MY DATA PROCESSING LET's \nLOOK"/>
+
+        <LinearLayout
+            android:layout_weight="5"
+            android:layout_alignLeft="@+id/image"
+            android:layout_width="0dp"
+            android:gravity="end"
+            android:layout_marginEnd="8sp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                app:tint="@color/grey_60"
+                android:id="@+id/facebookid"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?actionBarItemBackground"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/facebook"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                app:tint="@color/grey_60"
+                android:id="@+id/gmailid"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="18sp"
+                android:background="?actionBarItemBackground"
+                android:src="@drawable/gmail"
+                tools:ignore="VectorDrawableCompat" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <!--//..................Happy Coding.........................//-->
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_margin">21dp</dimen>
+    <dimen name="end_margin">21dp</dimen>
+    <dimen name="card_gab">16dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="card_bottom">32dp</dimen>
+    <dimen name="card_spacing">16dp</dimen>
+
+    <dimen name="header_font_size">14sp</dimen>
+    <dimen name="movie_icon_container_height">300dp</dimen>
+    <dimen name="toolbar_spaece">15dp</dimen>
+    <dimen name="line_hide">3dp</dimen>
+    <dimen name="contact_icon">20dp</dimen>
+    <dimen name="contact_icon_hight">30</dimen>
+    <dimen name="hight_text_sizee">18dp</dimen>
+    <dimen name="description_text_size">16dp</dimen>
+    <dimen name="seventinth_text_size">17sp</dimen>
+    <dimen name="more_padding">12dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+    <dimen name="spacing_middle">10sp</dimen>
+
+
+    <dimen name="pause_bar_width">5dp</dimen>
+    <dimen name="pause_bar_distance">4dp</dimen>
+    <dimen name="pause_bar_height">14dp</dimen>
+    <dimen name="mini_player_height">64dp</dimen>
+    <dimen name="notification_big_image_size">128dp</dimen>
+</resources>

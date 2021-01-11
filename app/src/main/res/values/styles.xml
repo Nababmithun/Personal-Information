@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+
+<!--    <style name="TextViewCustomFont">-->
+<!--        <item name="fontPath">fonts/poppins_regular.ttf</item>-->
+<!--    </style>-->
+    <style name="AppTheme.Widget"/>
+
+
+
+
+
+
+    <style name="ButtonStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/first_color</item>
+        <item name="colorPrimaryDark">@color/first_color</item>
+        <item name="colorAccent">@color/grey_40</item>
+
+    </style>
+
+    <style name="ProgressbarStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/first_color</item>
+        <item name="colorPrimaryDark">@color/first_color</item>
+        <item name="colorAccent">@color/first_color</item>
+
+    </style>
+
+
+    <style name="Theme.HSLPlayer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="chipIconTint">@color/chipIconTint</item>
+        <item name="android:windowLightStatusBar"
+            tools:ignore="NewApi"
+            tools:targetApi="m">true</item>
+    </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorSecondary">#e2e2e2</item>
+    </style>
+
+</resources>

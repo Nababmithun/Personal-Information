@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--  //..............Code start...............................//-->
+
+
+    <item
+        android:id="@+id/navigation_newsFeed"
+        android:icon="@drawable/person"
+        android:title="Personal Info" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/information"
+        android:title="Education Info" />
+
+    <!--//..................Happy Coding.........................//-->
+
+
+</menu>

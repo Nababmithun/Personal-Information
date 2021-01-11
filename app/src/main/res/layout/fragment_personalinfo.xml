@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.personalinfoFragment">
+
+    <!--  //..............Code start...............................//-->
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="24dp"
+        android:fontFamily="@font/lato_regular"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Personal information :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/grey_60"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cir1"
+        android:layout_marginTop="30dp"
+        app:civ_border_color="@color/grey_60"
+        app:civ_border_width="1dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logos"
+        android:layout_below="@+id/view1"
+        android:layout_width="79dp"
+        android:layout_height="79dp">
+
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_regular"
+        android:layout_below="@+id/cir1"
+        android:layout_marginTop="30dp"
+        android:text="Name : Tasfia Arefin prome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/texr11"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_regular"
+        android:layout_below="@+id/text10"
+        android:layout_marginTop="8dp"
+        android:text="Address : Naogon, Rajshahi Bangladesh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/text12"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_regular"
+        android:layout_below="@+id/texr11"
+        android:layout_marginTop="8dp"
+        android:text="E-mail: arafinpromi@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/text13"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_regular"
+        android:layout_below="@+id/text12"
+        android:layout_marginTop="8dp"
+        android:text="Facebook Id: Arefin promi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_regular"
+        android:layout_below="@+id/text13"
+        android:layout_marginTop="8dp"
+        android:text="Phone Number: 01751546677"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--//..................Happy Coding.........................//-->
+
+
+</RelativeLayout>
